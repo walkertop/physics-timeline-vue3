@@ -1,0 +1,388 @@
+{
+  "timeline": [
+    {
+      "id": "newton-principia",
+      "year": 1687,
+      "title": "牛顿《自然哲学的数学原理》",
+      "person": {
+        "name": "艾萨克·牛顿",
+        "nameEn": "Isaac Newton",
+        "birth": 1643,
+        "death": 1727,
+        "nationality": "英国"
+      },
+      "category": "classical_mechanics",
+      "importance": "milestone",
+      "shortDescription": "建立了经典力学的完整体系，提出万有引力定律和运动三定律",
+      "detailedContent": {
+        "background": "在开普勒行星运动定律和伽利略地面运动研究的基础上，牛顿统一了天体和地面的运动规律",
+        "achievement": "提出了万有引力定律、牛顿运动三定律，建立了微积分数学工具，创立了经典力学体系",
+        "significance": "为后续200年的物理学发展奠定了基础，被认为是科学革命的顶峰",
+        "formulas": ["F = ma", "F = G(m₁m₂)/r²"],
+        "impact": "影响了整个启蒙时代的科学观，确立了机械决定论的世界观"
+      },
+      "connections": ["galileo-motion", "kepler-laws"],
+      "nextInfluences": ["lagrange-mechanics", "hamilton-mechanics"]
+    },
+    {
+      "id": "coulomb-law",
+      "year": 1785,
+      "title": "库仑定律",
+      "person": {
+        "name": "夏尔·奥古斯丁·德·库仑",
+        "nameEn": "Charles-Augustin de Coulomb",
+        "birth": 1736,
+        "death": 1806,
+        "nationality": "法国"
+      },
+      "category": "electromagnetism",
+      "importance": "important",
+      "shortDescription": "发现了电荷间相互作用的基本定律",
+      "detailedContent": {
+        "background": "18世纪电学研究兴起，富兰克林等人已经研究了电的基本性质",
+        "achievement": "通过扭秤实验精确测定了电荷间的作用力与距离平方成反比",
+        "significance": "为电磁学的发展奠定了定量基础",
+        "formulas": ["F = k(q₁q₂)/r²"],
+        "impact": "启发了后续电磁学的数学化研究"
+      },
+      "connections": ["franklin-electricity"],
+      "nextInfluences": ["gauss-law", "maxwell-equations"]
+    },
+    {
+      "id": "faraday-electromagnetic-induction",
+      "year": 1831,
+      "title": "法拉第电磁感应定律",
+      "person": {
+        "name": "迈克尔·法拉第",
+        "nameEn": "Michael Faraday",
+        "birth": 1791,
+        "death": 1867,
+        "nationality": "英国"
+      },
+      "category": "electromagnetism",
+      "importance": "milestone",
+      "shortDescription": "发现了电磁感应现象，建立了电场和磁场相互转化的概念",
+      "detailedContent": {
+        "background": "奥斯特发现电流的磁效应后，法拉第致力于寻找磁的电效应",
+        "achievement": "发现变化的磁场能够产生电场，提出了电磁感应定律和楞次定律",
+        "significance": "揭示了电和磁的统一性，为电磁学理论和电机技术奠定基础",
+        "formulas": ["ε = -dΦ/dt"],
+        "impact": "直接导致了发电机和电动机的发明，开启了电气时代"
+      },
+      "connections": ["oersted-magnetic-effect"],
+      "nextInfluences": ["maxwell-equations", "electromagnetic-waves"]
+    },
+    {
+      "id": "maxwell-equations",
+      "year": 1864,
+      "title": "麦克斯韦电磁理论",
+      "person": {
+        "name": "詹姆斯·克拉克·麦克斯韦",
+        "nameEn": "James Clerk Maxwell",
+        "birth": 1831,
+        "death": 1879,
+        "nationality": "苏格兰"
+      },
+      "category": "electromagnetism",
+      "importance": "milestone",
+      "shortDescription": "统一了电学和磁学，预言了电磁波的存在",
+      "detailedContent": {
+        "background": "在法拉第、安培等人工作基础上，麦克斯韦用数学方法统一描述电磁现象",
+        "achievement": "建立了麦克斯韦方程组，预言了电磁波，计算出光速等于电磁波速",
+        "significance": "完成了经典电磁学的理论体系，揭示了光的电磁本质",
+        "formulas": ["∇·E = ρ/ε₀", "∇·B = 0", "∇×E = -∂B/∂t", "∇×B = μ₀J + μ₀ε₀∂E/∂t"],
+        "impact": "为相对论的建立提供了重要启发，推动了无线通信技术的发展"
+      },
+      "connections": ["faraday-electromagnetic-induction", "coulomb-law"],
+      "nextInfluences": ["hertz-electromagnetic-waves", "lorentz-transformation"]
+    },
+    {
+      "id": "hertz-electromagnetic-waves",
+      "year": 1886,
+      "title": "赫兹证实电磁波存在",
+      "person": {
+        "name": "海因里希·鲁道夫·赫兹",
+        "nameEn": "Heinrich Rudolf Hertz",
+        "birth": 1857,
+        "death": 1894,
+        "nationality": "德国"
+      },
+      "category": "electromagnetism",
+      "importance": "important",
+      "shortDescription": "实验证实了麦克斯韦预言的电磁波存在",
+      "detailedContent": {
+        "background": "麦克斯韦理论预言了电磁波，但需要实验验证",
+        "achievement": "用火花隙振荡器产生电磁波，并证明其具有波的性质",
+        "significance": "验证了麦克斯韦理论，为无线通信技术奠定基础",
+        "formulas": ["c = λf"],
+        "impact": "直接推动了无线电技术的发展"
+      },
+      "connections": ["maxwell-equations"],
+      "nextInfluences": ["marconi-wireless", "planck-quantum"]
+    },
+    {
+      "id": "blackbody-radiation-problem",
+      "year": 1900,
+      "title": "黑体辐射问题",
+      "person": {
+        "name": "多位物理学家",
+        "nameEn": "Multiple Physicists",
+        "birth": null,
+        "death": null,
+        "nationality": "国际"
+      },
+      "category": "quantum_origins",
+      "importance": "important",
+      "shortDescription": "经典物理学无法解释黑体辐射的能量分布",
+      "detailedContent": {
+        "background": "19世纪末，物理学家试图用经典理论解释黑体辐射",
+        "achievement": "瑞利-金斯定律在低频符合实验，但在高频出现'紫外灾难'",
+        "significance": "暴露了经典物理学的局限性，成为量子理论的起点",
+        "formulas": ["u(ν,T) = (8πν²/c³)kT (瑞利-金斯定律)"],
+        "impact": "迫使物理学家寻找新的理论框架"
+      },
+      "connections": ["maxwell-equations"],
+      "nextInfluences": ["planck-quantum"]
+    },
+    {
+      "id": "planck-quantum",
+      "year": 1900,
+      "title": "普朗克量子假说",
+      "person": {
+        "name": "马克斯·普朗克",
+        "nameEn": "Max Planck",
+        "birth": 1858,
+        "death": 1947,
+        "nationality": "德国"
+      },
+      "category": "quantum_origins",
+      "importance": "milestone",
+      "shortDescription": "提出能量量子化概念，开创了量子理论",
+      "detailedContent": {
+        "background": "为解决黑体辐射问题，普朗克被迫引入能量不连续的假设",
+        "achievement": "提出能量量子E=hν，成功解释黑体辐射的能量分布",
+        "significance": "标志着量子理论的诞生，引入了普朗克常数",
+        "formulas": ["E = hν", "u(ν,T) = (8πhν³/c³)/(e^(hν/kT)-1)"],
+        "impact": "开启了现代物理学的新纪元，挑战了能量连续性的经典观念"
+      },
+      "connections": ["blackbody-radiation-problem"],
+      "nextInfluences": ["einstein-photoelectric", "bohr-atom"]
+    },
+    {
+      "id": "einstein-photoelectric",
+      "year": 1905,
+      "title": "爱因斯坦光电效应理论",
+      "person": {
+        "name": "阿尔伯特·爱因斯坦",
+        "nameEn": "Albert Einstein",
+        "birth": 1879,
+        "death": 1955,
+        "nationality": "德国/美国"
+      },
+      "category": "quantum_development",
+      "importance": "milestone",
+      "shortDescription": "提出光量子概念，解释光电效应现象",
+      "detailedContent": {
+        "background": "光电效应实验结果无法用经典波动理论解释",
+        "achievement": "提出光具有粒子性，光子能量E=hν，成功解释光电效应",
+        "significance": "确立了光的波粒二象性，推广了量子概念",
+        "formulas": ["E_k = hν - W₀", "E_photon = hν"],
+        "impact": "为爱因斯坦赢得1921年诺贝尔物理学奖，推动量子理论发展"
+      },
+      "connections": ["planck-quantum"],
+      "nextInfluences": ["compton-scattering", "de-broglie-waves"]
+    },
+    {
+      "id": "rutherford-atom",
+      "year": 1911,
+      "title": "卢瑟福原子模型",
+      "person": {
+        "name": "欧内斯特·卢瑟福",
+        "nameEn": "Ernest Rutherford",
+        "birth": 1871,
+        "death": 1937,
+        "nationality": "新西兰/英国"
+      },
+      "category": "atomic_structure",
+      "importance": "important",
+      "shortDescription": "通过α粒子散射实验发现原子核",
+      "detailedContent": {
+        "background": "汤姆逊的'葡萄干布丁'原子模型需要实验验证",
+        "achievement": "发现原子具有致密的原子核，建立了行星模型",
+        "significance": "揭示了原子的真实结构，但无法解释原子稳定性",
+        "formulas": ["散射公式相关"],
+        "impact": "为玻尔原子模型提供了基础"
+      },
+      "connections": ["thomson-atom"],
+      "nextInfluences": ["bohr-atom"]
+    },
+    {
+      "id": "bohr-atom",
+      "year": 1913,
+      "title": "玻尔原子模型",
+      "person": {
+        "name": "尼尔斯·玻尔",
+        "nameEn": "Niels Bohr",
+        "birth": 1885,
+        "death": 1962,
+        "nationality": "丹麦"
+      },
+      "category": "quantum_development",
+      "importance": "milestone",
+      "shortDescription": "引入量子化轨道概念，解释氢原子光谱",
+      "detailedContent": {
+        "background": "卢瑟福原子模型无法解释原子稳定性和光谱线",
+        "achievement": "提出电子在量子化轨道上运动，成功解释氢原子光谱",
+        "significance": "将量子概念引入原子结构，建立了旧量子论",
+        "formulas": ["E_n = -13.6/n² eV", "L = nℏ"],
+        "impact": "为后续量子力学发展奠定基础，获得1922年诺贝尔物理学奖"
+      },
+      "connections": ["planck-quantum", "rutherford-atom"],
+      "nextInfluences": ["sommerfeld-fine-structure", "de-broglie-waves"]
+    },
+    {
+      "id": "de-broglie-waves",
+      "year": 1924,
+      "title": "德布罗意物质波理论",
+      "person": {
+        "name": "路易·德布罗意",
+        "nameEn": "Louis de Broglie",
+        "birth": 1892,
+        "death": 1987,
+        "nationality": "法国"
+      },
+      "category": "quantum_development",
+      "importance": "milestone",
+      "shortDescription": "提出物质具有波动性，建立波粒二象性的普遍概念",
+      "detailedContent": {
+        "background": "光具有波粒二象性已被确认，德布罗意考虑物质是否也有类似性质",
+        "achievement": "提出任何物质都具有波动性，波长λ=h/p",
+        "significance": "统一了物质和光的波粒二象性，为量子力学奠定概念基础",
+        "formulas": ["λ = h/p", "E = pc (相对论关系)"],
+        "impact": "获得1929年诺贝尔物理学奖，启发了薛定谔波动方程的建立"
+      },
+      "connections": ["einstein-photoelectric", "bohr-atom"],
+      "nextInfluences": ["schrodinger-equation", "electron-diffraction"]
+    },
+    {
+      "id": "heisenberg-matrix",
+      "year": 1925,
+      "title": "海森堡矩阵力学",
+      "person": {
+        "name": "维尔纳·海森堡",
+        "nameEn": "Werner Heisenberg",
+        "birth": 1901,
+        "death": 1976,
+        "nationality": "德国"
+      },
+      "category": "quantum_mechanics",
+      "importance": "milestone",
+      "shortDescription": "建立了第一个完整的量子力学理论体系",
+      "detailedContent": {
+        "background": "旧量子论在处理复杂原子时遇到困难，需要新的理论框架",
+        "achievement": "用矩阵代数描述量子系统，建立了矩阵力学",
+        "significance": "第一个完整的量子力学理论，引入了不可对易的物理量",
+        "formulas": ["[x,p] = iℏ", "矩阵元素计算"],
+        "impact": "与薛定谔波动力学等价，共同构成现代量子力学基础"
+      },
+      "connections": ["bohr-atom"],
+      "nextInfluences": ["schrodinger-equation", "uncertainty-principle"]
+    },
+    {
+      "id": "schrodinger-equation",
+      "year": 1926,
+      "title": "薛定谔波动方程",
+      "person": {
+        "name": "埃尔温·薛定谔",
+        "nameEn": "Erwin Schrödinger",
+        "birth": 1887,
+        "death": 1961,
+        "nationality": "奥地利"
+      },
+      "category": "quantum_mechanics",
+      "importance": "milestone",
+      "shortDescription": "建立了描述量子系统演化的基本方程",
+      "detailedContent": {
+        "background": "受德布罗意物质波启发，薛定谔寻找描述物质波的方程",
+        "achievement": "建立了薛定谔方程，成功描述氢原子和其他量子系统",
+        "significance": "提供了量子力学的波动图像，与海森堡矩阵力学等价",
+        "formulas": ["iℏ∂ψ/∂t = Ĥψ", "Ĥψ = Eψ (定态)"],
+        "impact": "成为量子力学的核心方程，获得1933年诺贝尔物理学奖"
+      },
+      "connections": ["de-broglie-waves", "heisenberg-matrix"],
+      "nextInfluences": ["born-interpretation", "quantum-tunneling"]
+    },
+    {
+      "id": "uncertainty-principle",
+      "year": 1927,
+      "title": "海森堡不确定性原理",
+      "person": {
+        "name": "维尔纳·海森堡",
+        "nameEn": "Werner Heisenberg",
+        "birth": 1901,
+        "death": 1976,
+        "nationality": "德国"
+      },
+      "category": "quantum_mechanics",
+      "importance": "milestone",
+      "shortDescription": "揭示了量子世界的根本限制",
+      "detailedContent": {
+        "background": "量子力学的发展揭示了微观世界与宏观世界的根本差异",
+        "achievement": "证明了位置和动量等共轭物理量不能同时精确测定",
+        "significance": "揭示了量子世界的本质特征，挑战了经典决定论",
+        "formulas": ["Δx·Δp ≥ ℏ/2", "ΔE·Δt ≥ ℏ/2"],
+        "impact": "深刻影响了物理学哲学，成为量子力学的基本原理"
+      },
+      "connections": ["heisenberg-matrix"],
+      "nextInfluences": ["copenhagen-interpretation", "epr-paradox"]
+    },
+    {
+      "id": "born-interpretation",
+      "year": 1926,
+      "title": "玻恩的概率诠释",
+      "person": {
+        "name": "马克斯·玻恩",
+        "nameEn": "Max Born",
+        "birth": 1882,
+        "death": 1970,
+        "nationality": "德国"
+      },
+      "category": "quantum_interpretation",
+      "importance": "important",
+      "shortDescription": "建立了波函数的概率诠释",
+      "detailedContent": {
+        "background": "薛定谔方程建立后，需要理解波函数的物理意义",
+        "achievement": "提出|ψ|²表示粒子出现的概率密度",
+        "significance": "为量子力学提供了统计诠释，引入了概率性",
+        "formulas": ["P = |ψ|²", "∫|ψ|²dτ = 1"],
+        "impact": "获得1954年诺贝尔物理学奖，确立了量子力学的概率本质"
+      },
+      "connections": ["schrodinger-equation"],
+      "nextInfluences": ["copenhagen-interpretation"]
+    },
+    {
+      "id": "schrodinger-cat",
+      "year": 1935,
+      "title": "薛定谔的猫思想实验",
+      "person": {
+        "name": "埃尔温·薛定谔",
+        "nameEn": "Erwin Schrödinger",
+        "birth": 1887,
+        "death": 1961,
+        "nationality": "奥地利"
+      },
+      "category": "quantum_interpretation",
+      "importance": "milestone",
+      "shortDescription": "揭示了量子叠加态的哲学问题",
+      "detailedContent": {
+        "background": "量子力学的哥本哈根诠释在宏观世界应用时产生悖论",
+        "achievement": "通过猫的生死叠加态说明量子力学诠释的问题",
+        "significance": "引发了关于量子力学基础的深入思考",
+        "formulas": ["叠加态原理"],
+        "impact": "成为量子力学哲学讨论的经典案例，推动了量子诠释理论发展"
+      },
+      "connections": ["born-interpretation", "uncertainty-principle"],
+      "nextInfluences": ["many-worlds", "decoherence-theory"]
+    }
+  ]
+}

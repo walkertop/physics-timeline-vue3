@@ -1,0 +1,855 @@
+{
+  "timeline": [
+    {
+      "id": "newton-principia",
+      "year": 1687,
+      "title": "牛顿《自然哲学的数学原理》",
+      "person": {
+        "name": "艾萨克·牛顿",
+        "nameEn": "Isaac Newton",
+        "birth": 1643,
+        "death": 1727,
+        "nationality": "英国",
+        "portrait": "/images/newton.jpg"
+      },
+      "category": "classical_mechanics",
+      "importance": "milestone",
+      "shortDescription": "建立了经典力学的完整体系，提出万有引力定律和运动三定律",
+      "detailedContent": {
+        "background": "17世纪，开普勒已经发现了行星运动的三大定律，伽利略建立了地面运动的基本概念。但天体运动和地面运动似乎遵循不同的规律，科学界急需一个统一的理论框架。",
+        "problems": [
+          "天体运动与地面运动规律不统一",
+          "缺乏精确的数学描述方法",
+          "无法解释潮汐现象",
+          "行星轨道计算复杂"
+        ],
+        "hypotheses": [
+          "笛卡尔的漩涡理论：认为行星被以太漩涡推动",
+          "胡克的平方反比猜想：引力与距离平方成反比",
+          "牛顿的统一理论：同一种力支配天体和地面运动"
+        ],
+        "solution": {
+          "discoverer": "艾萨克·牛顿",
+          "method": "数学推导与实验验证相结合",
+          "keyInsights": [
+            "万有引力定律：F = G(m₁m₂)/r²",
+            "牛顿三大运动定律",
+            "微积分作为数学工具",
+            "天体和地面运动的统一"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "mixed",
+          "supporters": ["哈雷", "胡克（部分）", "莱布尼茨"],
+          "opponents": ["笛卡尔学派", "大陆理性主义者"],
+          "controversies": [
+            "超距作用概念难以接受",
+            "与笛卡尔机械论冲突",
+            "微积分优先权争议"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "成功预测哈雷彗星回归",
+            "解释潮汐现象",
+            "计算月球轨道"
+          ],
+          "experimentalEvidence": [
+            "卡文迪许扭秤实验（1798年）",
+            "傅科摆实验证明地球自转",
+            "天体力学精确预测"
+          ]
+        },
+        "impact": "确立了机械决定论世界观，为工业革命提供理论基础，统治物理学200年",
+        "formulas": ["F = ma", "F = G(m₁m₂)/r²", "a = v²/r"],
+        "modernRelevance": "仍是工程学基础，在相对论和量子力学出现前是完美理论"
+      },
+      "connections": ["galileo-motion", "kepler-laws"],
+      "nextInfluences": ["lagrange-mechanics", "hamilton-mechanics", "maxwell-equations"],
+      "position": { "x": -60, "y": 0, "z": 0 },
+      "themeColor": "#8B4513"
+    },
+    {
+      "id": "coulomb-law",
+      "year": 1785,
+      "title": "库仑定律的发现",
+      "person": {
+        "name": "夏尔·奥古斯丁·德·库仑",
+        "nameEn": "Charles-Augustin de Coulomb",
+        "birth": 1736,
+        "death": 1806,
+        "nationality": "法国",
+        "portrait": "/images/coulomb.jpg"
+      },
+      "category": "electromagnetism",
+      "importance": "important",
+      "shortDescription": "发现了电荷间相互作用的基本定律，为电磁学奠定定量基础",
+      "detailedContent": {
+        "background": "18世纪中期，富兰克林等人已经研究了电的基本性质，但电力的定量规律仍然未知。科学家们需要找到类似万有引力定律的电力定律。",
+        "problems": [
+          "电力大小与距离关系未知",
+          "缺乏精确测量电力的方法",
+          "电荷量无法准确定义",
+          "静电现象缺乏数学描述"
+        ],
+        "hypotheses": [
+          "普里斯特利猜想：电力可能遵循平方反比定律",
+          "卡文迪许假设：电力与万有引力类似",
+          "库仑的扭秤方法：用扭秤精确测量微小力"
+        ],
+        "solution": {
+          "discoverer": "夏尔·库仑",
+          "method": "扭秤实验",
+          "keyInsights": [
+            "电力与电荷乘积成正比",
+            "电力与距离平方成反比",
+            "同性电荷相斥，异性电荷相吸",
+            "电力遵循叠加原理"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "positive",
+          "supporters": ["拉普拉斯", "泊松", "高斯"],
+          "opponents": ["部分德国自然哲学家"],
+          "controversies": [
+            "电荷本质的争论",
+            "超距作用的质疑",
+            "测量精度的争议"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "与万有引力定律形式相似",
+            "符合对称性原理",
+            "可导出高斯定律"
+          ],
+          "experimentalEvidence": [
+            "库仑扭秤实验",
+            "后续精密电学实验",
+            "电容器行为验证"
+          ]
+        },
+        "impact": "为电磁学理论奠定基础，推动了电学的数学化",
+        "formulas": ["F = k(q₁q₂)/r²", "k = 1/(4πε₀)"],
+        "modernRelevance": "现代电磁学基础，量子电动力学的经典极限"
+      },
+      "connections": ["franklin-electricity"],
+      "nextInfluences": ["gauss-law", "maxwell-equations"],
+      "position": { "x": -45, "y": 5, "z": 15 },
+      "themeColor": "#FFD700"
+    },
+    {
+      "id": "faraday-electromagnetic-induction",
+      "year": 1831,
+      "title": "法拉第电磁感应定律",
+      "person": {
+        "name": "迈克尔·法拉第",
+        "nameEn": "Michael Faraday",
+        "birth": 1791,
+        "death": 1867,
+        "nationality": "英国",
+        "portrait": "/images/faraday.jpg"
+      },
+      "category": "electromagnetism",
+      "importance": "milestone",
+      "shortDescription": "发现了电磁感应现象，揭示了电和磁的统一性",
+      "detailedContent": {
+        "background": "1820年奥斯特发现电流的磁效应后，科学界开始思考：既然电能产生磁，那么磁是否也能产生电？这个问题困扰了科学家十多年。",
+        "problems": [
+          "磁能否产生电流？",
+          "如何实现磁生电？",
+          "电磁现象的本质是什么？",
+          "能否找到电磁现象的统一规律？"
+        ],
+        "hypotheses": [
+          "安培假设：磁铁附近应该能产生电流",
+          "法拉第猜想：变化的磁场可能产生电场",
+          "静态磁场理论：认为静磁场就能产生电流"
+        ],
+        "solution": {
+          "discoverer": "迈克尔·法拉第",
+          "method": "系统的实验研究",
+          "keyInsights": [
+            "变化的磁场产生电场",
+            "磁通量变化率决定感应电动势",
+            "楞次定律：感应电流阻碍磁通量变化",
+            "电磁感应的普遍性"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "enthusiastic",
+          "supporters": ["麦克斯韦", "亨利", "楞次"],
+          "opponents": ["少数坚持超距作用的学者"],
+          "controversies": [
+            "场的概念难以理解",
+            "与牛顿力学的兼容性",
+            "感应电流方向的确定"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "麦克斯韦方程组的建立",
+            "电磁波理论的预言",
+            "能量守恒定律的验证"
+          ],
+          "experimentalEvidence": [
+            "发电机的发明",
+            "变压器的工作原理",
+            "电磁波的发现"
+          ]
+        },
+        "impact": "开启了电气时代，为现代电力工业奠定基础",
+        "formulas": ["ε = -dΦ/dt", "Φ = B·S", "ε = BLv"],
+        "modernRelevance": "现代电力技术的基础，量子场论中的规范不变性"
+      },
+      "connections": ["oersted-magnetic-effect", "coulomb-law"],
+      "nextInfluences": ["maxwell-equations", "electromagnetic-waves"],
+      "position": { "x": -30, "y": 8, "z": -10 },
+      "themeColor": "#4169E1"
+    },
+    {
+      "id": "maxwell-equations",
+      "year": 1864,
+      "title": "麦克斯韦电磁理论",
+      "person": {
+        "name": "詹姆斯·克拉克·麦克斯韦",
+        "nameEn": "James Clerk Maxwell",
+        "birth": 1831,
+        "death": 1879,
+        "nationality": "苏格兰",
+        "portrait": "/images/maxwell.jpg"
+      },
+      "category": "electromagnetism",
+      "importance": "milestone",
+      "shortDescription": "统一了电学和磁学，预言了电磁波的存在，揭示了光的电磁本质",
+      "detailedContent": {
+        "background": "19世纪中期，库仑定律、安培定律、法拉第定律等电磁学定律已经建立，但缺乏统一的数学框架。麦克斯韦试图用场的概念统一所有电磁现象。",
+        "problems": [
+          "电磁学定律缺乏统一性",
+          "安培环路定律在变化电场中不成立",
+          "光的本质未知",
+          "电磁现象与力学的关系不明"
+        ],
+        "hypotheses": [
+          "法拉第的场线概念",
+          "麦克斯韦的位移电流假设",
+          "电磁场的机械模型",
+          "以太作为电磁波传播介质"
+        ],
+        "solution": {
+          "discoverer": "詹姆斯·麦克斯韦",
+          "method": "数学统一与物理直觉结合",
+          "keyInsights": [
+            "位移电流的引入",
+            "电磁场方程组的建立",
+            "电磁波的预言",
+            "光速等于电磁波速"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "skeptical",
+          "supporters": ["赫兹", "洛伦兹", "庞加莱"],
+          "opponents": ["德国物理学家", "机械论者"],
+          "controversies": [
+            "位移电流的物理意义",
+            "以太的存在性",
+            "场概念vs超距作用",
+            "电磁理论的机械基础"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "电磁波速度计算",
+            "光学现象的电磁解释",
+            "能量和动量守恒"
+          ],
+          "experimentalEvidence": [
+            "赫兹电磁波实验（1886-1888）",
+            "无线电技术的发展",
+            "光的电磁性质验证"
+          ]
+        },
+        "impact": "完成了经典电磁学理论体系，为相对论奠定基础，推动无线通信发展",
+        "formulas": [
+          "∇·E = ρ/ε₀",
+          "∇·B = 0",
+          "∇×E = -∂B/∂t",
+          "∇×B = μ₀J + μ₀ε₀∂E/∂t"
+        ],
+        "modernRelevance": "现代电磁学基础，相对论的先驱，量子电动力学的经典极限"
+      },
+      "connections": ["faraday-electromagnetic-induction", "coulomb-law"],
+      "nextInfluences": ["hertz-electromagnetic-waves", "lorentz-transformation", "special-relativity"],
+      "position": { "x": -15, "y": 12, "z": 5 },
+      "themeColor": "#9932CC"
+    },
+    {
+      "id": "planck-quantum",
+      "year": 1900,
+      "title": "普朗克量子假说",
+      "person": {
+        "name": "马克斯·普朗克",
+        "nameEn": "Max Planck",
+        "birth": 1858,
+        "death": 1947,
+        "nationality": "德国",
+        "portrait": "/images/planck.jpg"
+      },
+      "category": "quantum_origins",
+      "importance": "milestone",
+      "shortDescription": "提出能量量子化概念，开创了量子理论，解决了黑体辐射问题",
+      "detailedContent": {
+        "background": "19世纪末，经典物理学在解释黑体辐射时遇到了'紫外灾难'。瑞利-金斯定律预言高频辐射能量无穷大，这与实验严重不符，成为经典物理学的重大危机。",
+        "problems": [
+          "黑体辐射的能量分布无法用经典理论解释",
+          "瑞利-金斯定律的'紫外灾难'",
+          "维恩定律只在高频区域适用",
+          "经典统计力学的失效"
+        ],
+        "hypotheses": [
+          "维恩的位移定律：λₘₐₓT = 常数",
+          "瑞利-金斯定律：u(ν,T) = (8πν²/c³)kT",
+          "普朗克的量子假设：能量不连续",
+          "经典谐振子模型的修正"
+        ],
+        "solution": {
+          "discoverer": "马克斯·普朗克",
+          "method": "数学拟合与物理直觉",
+          "keyInsights": [
+            "能量量子化：E = nhν",
+            "普朗克常数h的引入",
+            "能量的不连续性",
+            "统计力学的量子修正"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "reluctant",
+          "supporters": ["爱因斯坦", "玻尔", "索末菲"],
+          "opponents": ["普朗克本人（初期）", "经典物理学家"],
+          "controversies": [
+            "能量不连续性的物理意义",
+            "量子概念的普适性",
+            "与经典物理学的兼容性",
+            "h常数的基本性质"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "完美拟合黑体辐射实验",
+            "导出维恩定律和瑞利-金斯定律",
+            "解释比热容的温度依赖性"
+          ],
+          "experimentalEvidence": [
+            "黑体辐射精密测量",
+            "光电效应实验",
+            "原子光谱的分立性"
+          ]
+        },
+        "impact": "开启了量子时代，挑战了经典物理学的连续性假设",
+        "formulas": ["E = hν", "u(ν,T) = (8πhν³/c³)/(e^(hν/kT)-1)", "h = 6.626×10⁻³⁴ J·s"],
+        "modernRelevance": "量子力学的基石，现代物理学的起点"
+      },
+      "connections": ["maxwell-equations"],
+      "nextInfluences": ["einstein-photoelectric", "bohr-atom", "quantum-mechanics"],
+      "position": { "x": 0, "y": 15, "z": -15 },
+      "themeColor": "#FF4500"
+    },
+    {
+      "id": "einstein-photoelectric",
+      "year": 1905,
+      "title": "爱因斯坦光电效应理论",
+      "person": {
+        "name": "阿尔伯特·爱因斯坦",
+        "nameEn": "Albert Einstein",
+        "birth": 1879,
+        "death": 1955,
+        "nationality": "德国/美国",
+        "portrait": "/images/einstein.jpg"
+      },
+      "category": "quantum_development",
+      "importance": "milestone",
+      "shortDescription": "提出光量子概念，解释光电效应现象，确立了光的粒子性",
+      "detailedContent": {
+        "background": "光电效应现象早在1887年就被赫兹发现，但其特性无法用经典波动理论解释。特别是光电子的最大动能只依赖于光的频率而非强度，这完全违背了经典预期。",
+        "problems": [
+          "光电子动能与光强度无关",
+          "存在截止频率现象",
+          "光电效应的瞬时性",
+          "经典波动理论的失效"
+        ],
+        "hypotheses": [
+          "经典波动理论：能量应与光强成正比",
+          "汤姆逊的电子发射理论",
+          "爱因斯坦的光量子假设：光由粒子组成",
+          "普朗克量子概念的推广"
+        ],
+        "solution": {
+          "discoverer": "阿尔伯特·爱因斯坦",
+          "method": "将普朗克量子概念应用于光",
+          "keyInsights": [
+            "光由光子组成，每个光子能量E=hν",
+            "光电效应的能量守恒：hν = W₀ + Eₖ",
+            "光的波粒二象性",
+            "量子概念的普遍性"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "controversial",
+          "supporters": ["密立根（实验验证后）", "玻尔", "康普顿"],
+          "opponents": ["普朗克", "大多数物理学家"],
+          "controversies": [
+            "光的粒子性与波动性矛盾",
+            "与麦克斯韦理论的冲突",
+            "量子概念的适用范围",
+            "光子概念的物理实在性"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "完美解释光电效应所有特性",
+            "预言康普顿散射",
+            "与普朗克公式的一致性"
+          ],
+          "experimentalEvidence": [
+            "密立根精密实验（1914-1916）",
+            "康普顿散射实验（1923）",
+            "光子的直接探测"
+          ]
+        },
+        "impact": "确立了光的粒子性，推动量子理论发展，获得1921年诺贝尔物理学奖",
+        "formulas": ["E_photon = hν", "E_k = hν - W₀", "p_photon = h/λ"],
+        "modernRelevance": "量子光学基础，激光技术，光伏效应应用"
+      },
+      "connections": ["planck-quantum"],
+      "nextInfluences": ["compton-scattering", "de-broglie-waves", "bohr-atom"],
+      "position": { "x": 15, "y": 18, "z": 10 },
+      "themeColor": "#FFD700"
+    },
+    {
+      "id": "special-relativity",
+      "year": 1905,
+      "title": "爱因斯坦狭义相对论",
+      "person": {
+        "name": "阿尔伯特·爱因斯坦",
+        "nameEn": "Albert Einstein",
+        "birth": 1879,
+        "death": 1955,
+        "nationality": "德国/美国",
+        "portrait": "/images/einstein.jpg"
+      },
+      "category": "relativity",
+      "importance": "milestone",
+      "shortDescription": "提出狭义相对论，革命性地改变了时空观念，建立了质能关系",
+      "detailedContent": {
+        "background": "19世纪末，迈克尔逊-莫雷实验未能探测到以太风，洛伦兹变换已经提出，但缺乏统一的理论框架。麦克斯韦方程组在伽利略变换下不协变，这暴露了经典力学的局限性。",
+        "problems": [
+          "迈克尔逊-莫雷实验的零结果",
+          "麦克斯韦方程组的协变性问题",
+          "以太概念的困难",
+          "电磁学与力学的不统一"
+        ],
+        "hypotheses": [
+          "洛伦兹-菲茨杰拉德收缩假说",
+          "以太拖拽理论",
+          "爱因斯坦的相对性原理",
+          "光速不变原理"
+        ],
+        "solution": {
+          "discoverer": "阿尔伯特·爱因斯坦",
+          "method": "基于两个基本原理的逻辑推导",
+          "keyInsights": [
+            "相对性原理：物理定律在所有惯性系中相同",
+            "光速不变原理：真空中光速对所有观察者恒定",
+            "时空的相对性",
+            "质能等价关系E=mc²"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "skeptical",
+          "supporters": ["普朗克", "闵可夫斯基", "洛伦兹"],
+          "opponents": ["大多数物理学家", "勒纳德"],
+          "controversies": [
+            "绝对时空观念的颠覆",
+            "同时性的相对性",
+            "质量增加的概念",
+            "哲学层面的冲击"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "洛伦兹变换的自然导出",
+            "麦克斯韦方程组的协变性",
+            "能量动量关系的统一"
+          ],
+          "experimentalEvidence": [
+            "粒子加速器中的时间膨胀",
+            "μ子寿命实验",
+            "核反应中的质能转换"
+          ]
+        },
+        "impact": "彻底改变了时空观念，为现代物理学奠定基础，推动核能技术发展",
+        "formulas": ["E = mc²", "γ = 1/√(1-v²/c²)", "t' = γ(t - vx/c²)"],
+        "modernRelevance": "GPS卫星校正，粒子物理学，核能技术基础"
+      },
+      "connections": ["maxwell-equations"],
+      "nextInfluences": ["general-relativity", "quantum-mechanics"],
+      "position": { "x": 20, "y": 10, "z": -20 },
+      "themeColor": "#FF6347"
+    },
+    {
+      "id": "bohr-atom",
+      "year": 1913,
+      "title": "玻尔原子模型",
+      "person": {
+        "name": "尼尔斯·玻尔",
+        "nameEn": "Niels Bohr",
+        "birth": 1885,
+        "death": 1962,
+        "nationality": "丹麦",
+        "portrait": "/images/bohr.jpg"
+      },
+      "category": "atomic_structure",
+      "importance": "milestone",
+      "shortDescription": "提出原子的量子化轨道模型，成功解释氢原子光谱",
+      "detailedContent": {
+        "background": "卢瑟福的原子核模型虽然正确描述了原子结构，但按照经典电磁学，绕核运动的电子应该不断辐射能量并螺旋坠入原子核，这与原子的稳定性矛盾。",
+        "problems": [
+          "卢瑟福模型的不稳定性",
+          "氢原子光谱的分立性",
+          "经典电磁学的失效",
+          "原子稳定性的解释"
+        ],
+        "hypotheses": [
+          "经典轨道理论",
+          "汤姆逊的葡萄干布丁模型",
+          "玻尔的量子化轨道假设",
+          "角动量量子化"
+        ],
+        "solution": {
+          "discoverer": "尼尔斯·玻尔",
+          "method": "结合经典力学与量子假设",
+          "keyInsights": [
+            "电子轨道的量子化",
+            "角动量量子化：L = nℏ",
+            "能级的分立性",
+            "光谱线的频率条件：hν = E₂ - E₁"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "positive",
+          "supporters": ["爱因斯坦", "索末菲", "普朗克"],
+          "opponents": ["经典物理学家"],
+          "controversies": [
+            "量子跃迁的机制",
+            "轨道概念的物理意义",
+            "对应原理的适用性",
+            "多电子原子的处理"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "氢原子光谱的精确计算",
+            "里德伯常数的理论值",
+            "电离能的预测"
+          ],
+          "experimentalEvidence": [
+            "氢原子光谱实验",
+            "弗兰克-赫兹实验",
+            "X射线光谱分析"
+          ]
+        },
+        "impact": "建立了原子物理学基础，为量子力学发展铺平道路",
+        "formulas": ["E_n = -13.6/n² eV", "r_n = n²a₀", "L = nℏ"],
+        "modernRelevance": "量子力学的先驱，激光原理，原子钟技术"
+      },
+      "connections": ["planck-quantum", "einstein-photoelectric"],
+      "nextInfluences": ["quantum-mechanics", "pauli-exclusion"],
+      "position": { "x": 30, "y": 20, "z": 5 },
+      "themeColor": "#32CD32"
+    },
+    {
+      "id": "general-relativity",
+      "year": 1915,
+      "title": "爱因斯坦广义相对论",
+      "person": {
+        "name": "阿尔伯特·爱因斯坦",
+        "nameEn": "Albert Einstein",
+        "birth": 1879,
+        "death": 1955,
+        "nationality": "德国/美国",
+        "portrait": "/images/einstein.jpg"
+      },
+      "category": "relativity",
+      "importance": "milestone",
+      "shortDescription": "将引力描述为时空弯曲，统一了引力与几何学",
+      "detailedContent": {
+        "background": "狭义相对论成功统一了电磁学与力学，但无法处理引力。牛顿引力理论与相对论不兼容，需要新的引力理论。等效原理的发现为广义相对论提供了关键洞察。",
+        "problems": [
+          "牛顿引力的瞬时作用",
+          "引力与相对论的不兼容",
+          "水星近日点进动异常",
+          "惯性质量与引力质量的等价性"
+        ],
+        "hypotheses": [
+          "等效原理：引力与加速度等效",
+          "时空弯曲假设",
+          "广义协变性原理",
+          "马赫原理的影响"
+        ],
+        "solution": {
+          "discoverer": "阿尔伯特·爱因斯坦",
+          "method": "黎曼几何与物理直觉结合",
+          "keyInsights": [
+            "引力是时空弯曲的表现",
+            "爱因斯坦场方程",
+            "测地线原理",
+            "时空与物质的相互作用"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "amazed",
+          "supporters": ["爱丁顿", "希尔伯特", "外尔"],
+          "opponents": ["部分德国物理学家"],
+          "controversies": [
+            "数学复杂性",
+            "实验验证的困难",
+            "哲学层面的争议",
+            "与量子力学的统一问题"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "水星近日点进动的精确计算",
+            "光线弯曲的预言",
+            "引力红移效应"
+          ],
+          "experimentalEvidence": [
+            "1919年日食观测",
+            "引力红移实验",
+            "引力波探测（2015年）"
+          ]
+        },
+        "impact": "革命性地改变了引力观念，为现代宇宙学奠定基础",
+        "formulas": ["G_μν = 8πT_μν", "ds² = g_μνdx^μdx^ν"],
+        "modernRelevance": "GPS精度校正，黑洞研究，引力波天文学"
+      },
+      "connections": ["special-relativity"],
+      "nextInfluences": ["cosmology", "black-holes"],
+      "position": { "x": 35, "y": 5, "z": -25 },
+      "themeColor": "#8A2BE2"
+    },
+    {
+      "id": "de-broglie-waves",
+      "year": 1924,
+      "title": "德布罗意物质波理论",
+      "person": {
+        "name": "路易·德布罗意",
+        "nameEn": "Louis de Broglie",
+        "birth": 1892,
+        "death": 1987,
+        "nationality": "法国",
+        "portrait": "/images/de-broglie.jpg"
+      },
+      "category": "quantum_development",
+      "importance": "important",
+      "shortDescription": "提出物质波概念，建立了粒子波动性的理论基础",
+      "detailedContent": {
+        "background": "爱因斯坦已经确立了光的波粒二象性，但物质粒子是否也具有波动性仍是未知。德布罗意受到相对论和量子理论的启发，提出了大胆的物质波假设。",
+        "problems": [
+          "物质是否具有波动性",
+          "如何统一粒子和波的概念",
+          "玻尔原子模型的量子化条件缺乏深层解释",
+          "量子理论的对称性问题"
+        ],
+        "hypotheses": [
+          "物质粒子具有波动性",
+          "波长与动量的关系",
+          "驻波条件解释轨道量子化",
+          "波粒二象性的普遍性"
+        ],
+        "solution": {
+          "discoverer": "路易·德布罗意",
+          "method": "类比推理与理论分析",
+          "keyInsights": [
+            "德布罗意关系：λ = h/p",
+            "物质波的频率：ν = E/h",
+            "波粒二象性的普遍性",
+            "量子化条件的波动解释"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "skeptical",
+          "supporters": ["爱因斯坦", "薛定谔", "海森堡"],
+          "opponents": ["大多数实验物理学家"],
+          "controversies": [
+            "物质波的物理实在性",
+            "宏观物体的波动性",
+            "测量对波函数的影响",
+            "波包的稳定性"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "解释玻尔轨道的量子化",
+            "与相对论的兼容性",
+            "对称性原理的体现"
+          ],
+          "experimentalEvidence": [
+            "戴维逊-革末实验（1927）",
+            "电子衍射现象",
+            "中子衍射实验"
+          ]
+        },
+        "impact": "为薛定谔方程的建立提供了概念基础，开启了波动力学",
+        "formulas": ["λ = h/p", "ν = E/h", "p = ℏk"],
+        "modernRelevance": "电子显微镜原理，量子隧道效应，现代量子技术"
+      },
+      "connections": ["einstein-photoelectric", "bohr-atom"],
+      "nextInfluences": ["schrodinger-equation", "heisenberg-uncertainty"],
+      "position": { "x": 45, "y": 25, "z": 15 },
+      "themeColor": "#FF69B4"
+    },
+    {
+      "id": "heisenberg-uncertainty",
+      "year": 1927,
+      "title": "海森堡不确定性原理",
+      "person": {
+        "name": "维尔纳·海森堡",
+        "nameEn": "Werner Heisenberg",
+        "birth": 1901,
+        "death": 1976,
+        "nationality": "德国",
+        "portrait": "/images/heisenberg.jpg"
+      },
+      "category": "quantum_mechanics",
+      "importance": "milestone",
+      "shortDescription": "揭示了量子世界的根本限制，确立了测量的量子本质",
+      "detailedContent": {
+        "background": "量子力学的矩阵力学和波动力学已经建立，但其物理解释仍不清楚。海森堡通过分析测量过程，发现了量子力学的根本限制。",
+        "problems": [
+          "量子态的精确测量问题",
+          "经典轨道概念在量子世界的失效",
+          "测量对系统的扰动",
+          "量子力学的完备性问题"
+        ],
+        "hypotheses": [
+          "测量必然扰动系统",
+          "某些物理量不能同时精确确定",
+          "量子力学的统计性质",
+          "观察者效应的量子化"
+        ],
+        "solution": {
+          "discoverer": "维尔纳·海森堡",
+          "method": "思想实验与数学分析",
+          "keyInsights": [
+            "位置-动量不确定关系：Δx·Δp ≥ ℏ/2",
+            "能量-时间不确定关系：ΔE·Δt ≥ ℏ/2",
+            "测量的量子本质",
+            "经典概念的局限性"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "controversial",
+          "supporters": ["玻尔", "玻恩", "泡利"],
+          "opponents": ["爱因斯坦", "薛定谔", "德布罗意"],
+          "controversies": [
+            "量子力学的完备性",
+            "隐变量理论的可能性",
+            "测量问题的本质",
+            "实在论vs工具论"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "从对易关系推导",
+            "波包展宽现象",
+            "量子隧道效应"
+          ],
+          "experimentalEvidence": [
+            "单缝衍射实验",
+            "电子双缝实验",
+            "原子钟精度限制"
+          ]
+        },
+        "impact": "确立了量子力学的哲学基础，影响了科学哲学发展",
+        "formulas": ["Δx·Δp ≥ ℏ/2", "ΔE·Δt ≥ ℏ/2", "[x,p] = iℏ"],
+        "modernRelevance": "量子计算基础，精密测量限制，量子密码学"
+      },
+      "connections": ["de-broglie-waves", "bohr-atom"],
+      "nextInfluences": ["quantum-interpretation", "bell-theorem"],
+      "position": { "x": 55, "y": 30, "z": 0 },
+      "themeColor": "#DC143C"
+    },
+    {
+      "id": "schrodinger-equation",
+      "year": 1926,
+      "title": "薛定谔方程",
+      "person": {
+        "name": "埃尔温·薛定谔",
+        "nameEn": "Erwin Schrödinger",
+        "birth": 1887,
+        "death": 1961,
+        "nationality": "奥地利",
+        "portrait": "/images/schrodinger.jpg"
+      },
+      "category": "quantum_mechanics",
+      "importance": "milestone",
+      "shortDescription": "建立了量子力学的波动方程，为量子系统提供了完整的数学描述",
+      "detailedContent": {
+        "background": "德布罗意的物质波理论提供了概念基础，但缺乏具体的数学形式。薛定谔受到德布罗意理论的启发，试图建立描述物质波的微分方程。",
+        "problems": [
+          "如何建立物质波的动力学方程",
+          "波函数的物理意义",
+          "如何处理势能的作用",
+          "边界条件的确定"
+        ],
+        "hypotheses": [
+          "物质波遵循波动方程",
+          "波函数包含系统的全部信息",
+          "哈密顿算符的引入",
+          "概率解释的必要性"
+        ],
+        "solution": {
+          "discoverer": "埃尔温·薛定谔",
+          "method": "类比经典波动方程",
+          "keyInsights": [
+            "薛定谔方程：iℏ∂ψ/∂t = Ĥψ",
+            "波函数的概率解释",
+            "定态薛定谔方程",
+            "算符的引入"
+          ]
+        },
+        "acceptance": {
+          "initialReception": "positive",
+          "supporters": ["玻恩", "海森堡", "狄拉克"],
+          "opponents": ["爱因斯坦（对解释的质疑）"],
+          "controversies": [
+            "波函数的物理意义",
+            "测量问题",
+            "薛定谔猫悖论",
+            "多世界解释"
+          ]
+        },
+        "proof": {
+          "theoreticalEvidence": [
+            "氢原子问题的精确解",
+            "谐振子的量子化",
+            "与矩阵力学的等价性"
+          ],
+          "experimentalEvidence": [
+            "原子光谱的计算",
+            "化学键理论",
+            "固体能带结构"
+          ]
+        },
+        "impact": "成为量子力学的核心方程，为现代物理学和化学奠定基础",
+        "formulas": ["iℏ∂ψ/∂t = Ĥψ", "Ĥψ = Eψ", "|ψ|² = 概率密度"],
+        "modernRelevance": "量子化学，凝聚态物理，量子计算算法"
+      },
+      "connections": ["de-broglie-waves"],
+      "nextInfluences": ["quantum-interpretation", "dirac-equation"],
+      "position": { "x": 50, "y": 35, "z": -10 },
+      "themeColor": "#4169E1"
+    }
+  ]
+}
